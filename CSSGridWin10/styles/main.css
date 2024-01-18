@@ -10,21 +10,22 @@
 }
 .start-panel__grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .apps--office {
-
+    display: grid;
 }
 .apps--web {
-
+    display: grid;
 }
 .apps--other {
-
+    display: grid;
 }
 .apps__grid {
-
+    display: grid;
 }
 .app--g2x2 {
-
+    
 }
 .app--g2x1 {
 
@@ -42,7 +43,8 @@
 
 }
 .app--in-3 {
-
+    grid-column: 3;
+    grid-row: 1;
 }
 .app--fun-2 {
 
